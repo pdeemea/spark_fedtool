@@ -12,6 +12,9 @@ class load_conf (sc: SparkContext){
         def host2 =sc.getConf.get(ConfigHelper.DB2_HOST)
         def port2 =sc.getConf.get(ConfigHelper.DB2_PORT)
         def password2 =sc.getConf.get(ConfigHelper.PASSWORD2)
-      }
+        def url = "jdbc:postgresql://" + host + ":" + port + "/gpadmin"
+        def url2 = "jdbc:teradata://" + host2 + "/TMODE=ANSI,DATABASE=dbc,USER=" + user2 + ",PASSWORD=" + password2
+
+}
 
 

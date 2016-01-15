@@ -12,20 +12,20 @@ object simple {
 
 
 
-    val conf = new SparkConf().setAppName("Federation Tools")
+    val conf = new SparkConf().setAppName("Federation Tool")
     val sc = new SparkContext(conf)
 
     val configuration= new load_conf(sc)
 
     val sqlContext = new org.apache.spark.sql.SQLContext(sc)
-    val url = "jdbc:postgresql://" + configuration.host + ":" + configuration.port + "/gpadmin"
-    val url2 = "jdbc:teradata://" + configuration.host2 + "/TMODE=ANSI,DATABASE=dbc,USER=" + configuration.user2 + ",PASSWORD=" + configuration.password2
+
     val t1 = sqlContext.read.format("jdbc").options(
       Map(
-        "url" -> url,
+        "url" -> configuration.url,
         "dbtable" -> "test_piani",
         "driver" -> "org.postgresql.Driver",
         "user" -> configuration.user)).load()
+
     val t2 = sqlContext.read.format("jdbc").options(
       Map(
         "url" -> "jdbc:teradata://192.168.0.16/TMODE=ANSI,DATABASE=dbc,USER=dbc,PASSWORD=dbc",
