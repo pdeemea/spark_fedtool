@@ -13,4 +13,3 @@ object ConfigHelper {
   val DB2_HOST = "spark.db2.host"
   val DB2_PORT = "spark.db2.port"
 };
-
