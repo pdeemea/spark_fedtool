@@ -1,3 +1,6 @@
+* Compile process using sbt
+
+/usr/local/Cellar/sbt/0.13.9/bin/sbt package
 
 * The way to run the process
 
