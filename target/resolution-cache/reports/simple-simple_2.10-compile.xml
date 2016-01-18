@@ -7,7 +7,7 @@
 		revision="0.0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160115142117"/>
+		date="20160118100907"/>
 	<dependencies>
 		<module organisation="com.typesafe" name="config">
 			<revision name="1.3.0" status="release" pubdate="20150508164611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="37">

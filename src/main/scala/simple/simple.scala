@@ -13,7 +13,7 @@ object simple {
 
 
 
-
+    val prop = new java.util.Properties
     val conf = new SparkConf().setAppName("Federation Tool")
     val sc = new SparkContext(conf)
 
@@ -52,6 +52,8 @@ object simple {
    // struct2.saveAsTextFile("/Users/oventura/kk2.txt")
     val struct3= result_query.rdd
     struct3.saveAsTextFile("/Users/oventura/kk3.txt")
+ prop.setProperty("user",configuration.user)
+ org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils.saveTable(t1,configuration.url, "test1", prop)
   }
 }
 

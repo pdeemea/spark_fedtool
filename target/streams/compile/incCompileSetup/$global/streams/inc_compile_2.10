@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes
+output dir -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes
 compile options:
 0 items
 javac options:
@@ -24,30 +24,33 @@ name hashing:
 0 -> true
 products:
 7 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/simple$.class
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/simple.class
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/sql_postgres.class
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/sql_teradata.class
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/ConfigHelper$.class
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/ConfigHelper.class
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/load_conf.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/simple$.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/simple.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/sql_postgres.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/sql_teradata.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/ConfigHelper$.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/ConfigHelper.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/load_conf.class
 binary dependencies:
-15 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+18 items
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/load_conf.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/load_conf.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/load_conf.class
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -58,10 +61,10 @@ public inherited external dependencies:
 0 items
 member reference internal dependencies:
 4 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> /Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> /Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> /Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> /Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> /Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -70,216 +73,218 @@ inheritance external dependencies:
 0 items
 class names:
 7 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> simple.simple
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> simple.simple$
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> simple.sql_postgres
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> simple.sql_teradata
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> simple.util.ConfigHelper
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> simple.util.ConfigHelper$
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> simple.util.load_conf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> simple.simple
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> simple.simple$
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> simple.sql_postgres
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> simple.sql_teradata
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> simple.util.ConfigHelper
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> simple.util.ConfigHelper$
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> simple.util.load_conf
 used names:
 143 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> ->
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> <init>
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> AnyRef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> Array
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> Map
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> Predef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> SQLContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> SparkConf
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> SparkContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> String
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> Unit
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> any2ArrowAssoc
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> apache
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> apply
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> conf
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> configuration
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> format
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> load
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> load_conf
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> options
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> org
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> query
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> rdd
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> read
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> registerTempTable
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> result_query
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> saveAsTextFile
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> sc
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> setAppName
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> simple
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> spark
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> sql
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> sqlContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> struct3
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> t1
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> t2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> table2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> url
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> url2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> user
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> user2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> util
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> ->
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> <init>
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> AnyRef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> DataFrame
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> Map
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> Predef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> SQLContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> any2ArrowAssoc
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> apache
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> apply
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> configuration
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> format
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> load
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> load_conf
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> options
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> org
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> read
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> simple
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> spark
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> sql
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> sqlContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> sql_postgres
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> url
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> user
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> util
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> ->
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> <init>
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> AnyRef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> DataFrame
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> Map
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> Predef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> SQLContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> any2ArrowAssoc
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> apache
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> apply
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> configuration
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> format
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> load
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> load_conf
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> options
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> org
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> read
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> simple
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> spark
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> sql
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> sqlContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> sql_teradata
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> url
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> user
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> util
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> <init>
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> AnyRef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> ConfigHelper
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB1_DATAB
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB1_HOST
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB1_PORT
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB1_TABLE
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB2_DATAB
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB2_HOST
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB2_PORT
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> DB2_TABLE
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> PASSWORD2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> QUERY
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> USER1
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> USER2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> simple
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> util
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> +
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> <init>
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> AnyRef
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> ConfigHelper
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> DB1_HOST
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> DB1_PORT
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> DB1_TABLE
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> DB2_HOST
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> DB2_PORT
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> DB2_TABLE
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> PASSWORD2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> QUERY
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> SparkContext
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> USER1
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> USER2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> apache
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> get
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> getConf
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> host
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> host2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> load_conf
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> org
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> password2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> port
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> sc
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> scala
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> simple
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> spark
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> user2
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> util
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> ->
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> <init>
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> AnyRef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> Array
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> Map
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> Predef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> SQLContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> SparkConf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> SparkContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> String
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> Unit
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> any2ArrowAssoc
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> apache
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> apply
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> conf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> configuration
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> format
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> load
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> load_conf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> options
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> org
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> query
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> rdd
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> read
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> registerTempTable
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> result_query
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> saveAsTextFile
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> sc
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> setAppName
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> simple
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> spark
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> sql
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> sqlContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> struct3
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> t1
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> t2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> table2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> url
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> url2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> user
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> user2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> util
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> ->
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> <init>
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> AnyRef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> DataFrame
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> Map
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> Predef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> SQLContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> any2ArrowAssoc
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> apache
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> apply
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> configuration
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> format
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> load
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> load_conf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> options
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> org
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> read
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> simple
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> spark
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> sql
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> sqlContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> sql_postgres
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> url
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> user
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> util
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> ->
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> <init>
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> AnyRef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> DataFrame
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> Map
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> Predef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> SQLContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> any2ArrowAssoc
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> apache
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> apply
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> configuration
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> format
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> load
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> load_conf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> options
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> org
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> read
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> simple
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> spark
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> sql
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> sqlContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> sql_teradata
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> url
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> user
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> util
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> <init>
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> AnyRef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> ConfigHelper
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB1_DATAB
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB1_HOST
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB1_PORT
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB1_TABLE
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB2_DATAB
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB2_HOST
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB2_PORT
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> DB2_TABLE
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> PASSWORD2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> QUERY
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> USER1
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> USER2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> simple
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> util
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> +
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> <init>
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> AnyRef
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> ConfigHelper
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> DB1_HOST
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> DB1_PORT
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> DB1_TABLE
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> DB2_HOST
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> DB2_PORT
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> DB2_TABLE
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> PASSWORD2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> QUERY
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> SparkContext
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> USER1
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> USER2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> apache
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> get
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> getConf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> host
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> host2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> load_conf
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> org
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> password2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> port
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> sc
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> scala
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> simple
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> spark
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> user2
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> util
 product stamps:
 7 items
-/Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/simple$.class -> lastModified(1452881178000)
-/Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/simple.class -> lastModified(1452881178000)
-/Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/sql_postgres.class -> lastModified(1452879976000)
-/Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/sql_teradata.class -> lastModified(1452879976000)
-/Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/ConfigHelper$.class -> lastModified(1452880441000)
-/Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/ConfigHelper.class -> lastModified(1452880441000)
-/Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/load_conf.class -> lastModified(1452879976000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/simple$.class -> lastModified(1453111637000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/simple.class -> lastModified(1453111637000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/sql_postgres.class -> lastModified(1453111637000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/sql_teradata.class -> lastModified(1453111637000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/ConfigHelper$.class -> lastModified(1453111637000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/ConfigHelper.class -> lastModified(1453111637000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/load_conf.class -> lastModified(1453111637000)
 source stamps:
 5 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> hash(cab007377cf660328ec764898d6a713512415926)
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> hash(85637d3066a7c0618b64916a4e59f48be3f52303)
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> hash(5a0dc7747d6f5af5c2d92e506041e5140b5021f3)
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> hash(3d9c3eb1412a04a8b824c3dd2cf9fa7a1f73c27f)
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> hash(471bdd25bbc0fc54ff808e73773d5ccd9babe997)
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> hash(cab007377cf660328ec764898d6a713512415926)
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> hash(85637d3066a7c0618b64916a4e59f48be3f52303)
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> hash(5a0dc7747d6f5af5c2d92e506041e5140b5021f3)
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> hash(3d9c3eb1412a04a8b824c3dd2cf9fa7a1f73c27f)
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> hash(471bdd25bbc0fc54ff808e73773d5ccd9babe997)
 binary stamps:
-5 items
+6 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1438711540000)
 /Users/oventura/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar -> lastModified(1451274008000)
 /Users/oventura/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> lastModified(1451274009000)
 /Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar -> lastModified(1451274012000)
 /Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> lastModified(1395179187000)
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/load_conf.class -> lastModified(1453111637000)
 class names:
-5 items
+6 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
 /Users/oventura/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar -> org.apache.spark.sql.Row
-/Users/oventura/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> org.apache.spark.SparkConf
-/Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar -> org.apache.spark.sql.DataFrame
-/Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Array
+/Users/oventura/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> org.apache.spark.SparkContext
+/Users/oventura/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar -> org.apache.spark.sql.DataFrameReader
+/Users/oventura/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Predef$
+/Users/oventura/git/spark_fedtool/target/scala-2.10/classes/simple/util/load_conf.class -> simple.util.load_conf
 internal apis:
 5 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAGRJYXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cI+Z14h0AAZub3RpZnlzcQB+AAyPVmacdAAEd2FpdHNxAH4ADCslqvp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMhnWK43QABmVxdWFsc3NxAH4ADORKxX90AAxhc0luc3RhbmNlT2ZzcQB+AAywARAddAAMc3luY2hyb25pemVkc3EAfgAMF/GTn3QADSRpc0luc3RhbmNlT2ZzcQB+AAxRz3uqdAAEbWFpbnNxAH4ADJmwBHd0AAlub3RpZnlBbGxzcQB+AAyyK2mqdAAMaXNJbnN0YW5jZU9mc3EAfgAMNvgNXnQAAj09c3EAfgAMHPnMiXQABnNpbXBsZXNxAH4ADJHT67p0AAVjbG9uZXNxAH4ADDRPYGB0AAh0b1N0cmluZ3NxAH4ADJFOfAd0AAIhPXNxAH4ADG0F4hJ0AAhnZXRDbGFzc3NxAH4ADFUArcB0AAJuZXNxAH4ADDocNDh0AAJlcXNxAH4ADIrUK9F0AAIjI3NxAH4ADKeSsPp0AAhmaW5hbGl6ZXNxAH4ADJlqN+B0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA1zaW1wbGUuc2ltcGxldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBZAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGBzcQB+AFkBdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AaHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ab1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AX3NxAH4AbnQABUFycmF5cQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbnQABlN0cmluZ3NxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgB/cHNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cQB+AJMAAAACc3EAfgBudAAGT2JqZWN0cQB+AJdzcQB+AG50AANBbnlxAH4AdHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc2ltcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFSRndjPHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEAvVXNlcnMvb3ZlbnR1cmEvc3BhcmtfcHJvamVjdHMvc2ltcGxlMi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUyrAHN3z2YDKOx2SJjWpxNRJBWSY=
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCgMdbSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBnA2Vh0AAZub3RpZnlzcQB+AAziSN0adAAEd2FpdHNxAH4ADPTLL6h0AA0kYXNJbnN0YW5jZU9mc3EAfgAMrJIPlHQABmVxdWFsc3NxAH4ADICivdd0AAxhc0luc3RhbmNlT2ZzcQB+AAxOH9sadAAMc3luY2hyb25pemVkc3EAfgAMmjzScnQADSRpc0luc3RhbmNlT2ZzcQB+AAzQpcaxdAAMc3FsX3Bvc3RncmVzc3EAfgAMROhSonQACW5vdGlmeUFsbHNxAH4ADAkmLjx0AAxpc0luc3RhbmNlT2ZzcQB+AAzhGQEGdAAGPGluaXQ+c3EAfgAMfQS/uXQAAj09c3EAfgAMEsugvXQABWNsb25lc3EAfgAM/5+Gg3QACHRvU3RyaW5nc3EAfgAMMCZbVXQAAiE9c3EAfgAMZxcuGHQACGdldENsYXNzc3EAfgAMGmN4aHQAAnQxc3EAfgAMiX3Tr3QAAm5lc3EAfgAMbdqcV3QAAmVxc3EAfgAMucqxuHQAAiMjc3EAfgAM6OMbG3QACGZpbmFsaXplc3EAfgAMKgMOInQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE3NpbXBsZS5zcWxfcG9zdGdyZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFsAcHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGRzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AY3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AY3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgXNxAH4AdHQAA0FueXNxAH4AeHNxAH4Ae3VxAH4AfgAAAAJzcQB+AIB0AAVzY2FsYXEAfgCHdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc2ltcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFSRmUI9XVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEAvVXNlcnMvb3ZlbnR1cmEvc3BhcmtfcHJvamVjdHMvc2ltcGxlMi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUhWN9MGanwGGLZJFqTln0i+P1IwM=
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDxoohTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMVhqDh0AAZub3RpZnlzcQB+AAz6uclcdAAEd2FpdHNxAH4ADFLURcl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMKApNFXQABmVxdWFsc3NxAH4ADNQBkqZ0AAxhc0luc3RhbmNlT2ZzcQB+AAzxJEV7dAAMc3luY2hyb25pemVkc3EAfgAMEAaho3QADSRpc0luc3RhbmNlT2ZzcQB+AAzjpZEFdAAJbm90aWZ5QWxsc3EAfgAMLE1F9XQADGlzSW5zdGFuY2VPZnNxAH4ADKwJF5N0AAY8aW5pdD5zcQB+AAxWEJnkdAACPT1zcQB+AAyG+n/cdAAFY2xvbmVzcQB+AAzxhVXVdAAMc3FsX3RlcmFkYXRhc3EAfgAMB4xju3QACHRvU3RyaW5nc3EAfgAMjvlH5XQAAiE9c3EAfgAMggA9SHQACGdldENsYXNzc3EAfgAMPbw0jnQAAnQxc3EAfgAMxSbnKHQAAm5lc3EAfgAMTMXuHnQAAmVxc3EAfgAMQpNYMXQAAiMjc3EAfgAMSGpGnnQACGZpbmFsaXplc3EAfgAME+ZSC3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE3NpbXBsZS5zcWxfdGVyYWRhdGF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFsAcHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGRzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AY3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AY3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgXNxAH4AdHQAA0FueXNxAH4AeHNxAH4Ae3VxAH4AfgAAAAJzcQB+AIB0AAVzY2FsYXEAfgCHdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc2ltcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFSRmUI9XVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEAvVXNlcnMvb3ZlbnR1cmEvc3BhcmtfcHJvamVjdHMvc2ltcGxlMi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUWg3HdH1vWvXC2S5QYEHlFAtQIfM=
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAdys5NAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAxarMV0AAZub3RpZnlzcQB+AAwOV/q0dAAJREIyX1RBQkxFc3EAfgAMrlP7a3QACURCMV9EQVRBQnNxAH4ADCPBxid0AAR3YWl0c3EAfgAMBPSm4HQADSRhc0luc3RhbmNlT2ZzcQB+AAwH+QEBdAAGZXF1YWxzc3EAfgAM+BVpw3QABVVTRVIxc3EAfgAMjX8MmnQACURCMl9EQVRBQnNxAH4ADPszPnl0AAxhc0luc3RhbmNlT2ZzcQB+AAytWujydAAMQ29uZmlnSGVscGVyc3EAfgAM2uF3MXQADHN5bmNocm9uaXplZHNxAH4ADJVJUI90AA0kaXNJbnN0YW5jZU9mc3EAfgAM35FkAnQABVFVRVJZc3EAfgAMpInJsXQACW5vdGlmeUFsbHNxAH4ADEr8JFV0AAxpc0luc3RhbmNlT2ZzcQB+AAz9gLaTdAAJUEFTU1dPUkQyc3EAfgAMQSd+8nQAAj09c3EAfgAMcRWDinQABWNsb25lc3EAfgAMRA2XCHQACHRvU3RyaW5nc3EAfgAMIUfeWXQAAiE9c3EAfgAMll7LmnQACGdldENsYXNzc3EAfgAMjcM0xXQACERCMV9QT1JUc3EAfgAMPm0e+3QACERCMl9QT1JUc3EAfgAM3mE3M3QAAm5lc3EAfgAM1b3qP3QABVVTRVIyc3EAfgAMworl63QACERCMV9IT1NUc3EAfgAM5sv0c3QAAmVxc3EAfgAMmRqxoHQACURCMV9UQUJMRXNxAH4ADEyF0x90AAIjI3NxAH4ADFpTl+x0AAhEQjJfSE9TVHNxAH4ADPlzm2Z0AAhmaW5hbGl6ZXNxAH4ADOvGr1Z0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABhzaW1wbGUudXRpbC5Db25maWdIZWxwZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AG8Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFdMAAlpbmhlcml0ZWRxAH4AV0wAB3BhcmVudHNxAH4AV3hxAH4AdnNxAH4AbwF1cQB+AFIAAAAAcHNxAH4AbwF1cQB+AFIAAAAAcHNxAH4AbwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AI50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AI9zcQB+AIJ0AANBbnlzcQB+AIZzcQB+AIl1cQB+AIwAAAACc3EAfgCOdAAFc2NhbGFxAH4AlXBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAALc2ltcGxlLnV0aWxzcQB+AJ90AAZzaW1wbGVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVJGbCRidXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQC9Vc2Vycy9vdmVudHVyYS9zcGFya19wcm9qZWN0cy9zaW1wbGUyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ9nD6xQSoEqLgkw90s+fp6H3PCfw==
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBHvvpOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBfyTkF0AAZub3RpZnlzcQB+AAxx1hNpdAAEd2FpdHNxAH4ADDDeZrB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMmJFu23QAA3VybHNxAH4ADBsGTFt0AAZlcXVhbHNzcQB+AAwjsDEsdAAFcG9ydDJzcQB+AAyNDYeldAAMYXNJbnN0YW5jZU9mc3EAfgAMPem4FXQABGhvc3RzcQB+AAwiJktvdAAMc3luY2hyb25pemVkc3EAfgAMcwsv4HQADSRpc0luc3RhbmNlT2ZzcQB+AAxtPmbXdAAFaG9zdDJzcQB+AAxDYSswdAAFcXVlcnlzcQB+AAwIs6NYdAAGdGFibGUxc3EAfgAMZ1TiEXQACW5vdGlmeUFsbHNxAH4ADPa+odV0AAxpc0luc3RhbmNlT2ZzcQB+AAyZK2TzdAAGdGFibGUyc3EAfgAMqRGBCHQABjxpbml0PnNxAH4ADMZ57iN0AARwb3J0c3EAfgAM8ZChyHQABXVzZXIyc3EAfgAMQuSq4XQAAj09c3EAfgAMLjfoN3QABHVybDJzcQB+AAyLOInMdAAFY2xvbmVzcQB+AAx689TydAAJbG9hZF9jb25mc3EAfgAMvc+yaHQACHRvU3RyaW5nc3EAfgAMrwCTdXQAAiE9c3EAfgAM8EDI/XQACGdldENsYXNzc3EAfgAMbh60pHQAAm5lc3EAfgAMWCWeNXQACXBhc3N3b3JkMnNxAH4ADKLBPJp0AAR1c2Vyc3EAfgAM/LynTXQAAmVxc3EAfgAMcdlXt3QAAiMjc3EAfgAMUBqJKHQACGZpbmFsaXplc3EAfgAMk1ki+HQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AWXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFXNpbXBsZS51dGlsLmxvYWRfY29uZnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Acnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcQBwc3EAfgB2c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFlMAAlpbmhlcml0ZWRxAH4AWUwAB3BhcmVudHNxAH4AWXhxAH4AenNxAH4AcQBwc3EAfgB2dXEAfgBUAAAAAHNxAH4AcQBwc3EAfgB2dXEAfgBUAAAAAHNxAH4AcQBwc3EAfgB2dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB5dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB5c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCWdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCXc3EAfgCKdAADQW55c3EAfgCOc3EAfgCRdXEAfgCUAAAAAnNxAH4AlnQABXNjYWxhcQB+AJ11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtzaW1wbGUudXRpbHNxAH4Ap3QABnNpbXBsZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUkZlCPV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABAL1VzZXJzL292ZW50dXJhL3NwYXJrX3Byb2plY3RzL3NpbXBsZTIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFEcb3SW7wPxU/4COc3c9XM2bq+mX
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAGRJYXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cI+Z14h0AAZub3RpZnlzcQB+AAyPVmacdAAEd2FpdHNxAH4ADCslqvp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMhnWK43QABmVxdWFsc3NxAH4ADORKxX90AAxhc0luc3RhbmNlT2ZzcQB+AAywARAddAAMc3luY2hyb25pemVkc3EAfgAMF/GTn3QADSRpc0luc3RhbmNlT2ZzcQB+AAxRz3uqdAAEbWFpbnNxAH4ADJmwBHd0AAlub3RpZnlBbGxzcQB+AAyyK2mqdAAMaXNJbnN0YW5jZU9mc3EAfgAMNvgNXnQAAj09c3EAfgAMHPnMiXQABnNpbXBsZXNxAH4ADJHT67p0AAVjbG9uZXNxAH4ADDRPYGB0AAh0b1N0cmluZ3NxAH4ADJFOfAd0AAIhPXNxAH4ADG0F4hJ0AAhnZXRDbGFzc3NxAH4ADFUArcB0AAJuZXNxAH4ADDocNDh0AAJlcXNxAH4ADIrUK9F0AAIjI3NxAH4ADKeSsPp0AAhmaW5hbGl6ZXNxAH4ADJlqN+B0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA1zaW1wbGUuc2ltcGxldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AbHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ac1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYXNxAH4AcnQABUFycmF5cQB+AHh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcnQABlN0cmluZ3NxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCDc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+AJcAAAACc3EAfgBydAAGT2JqZWN0cQB+AJtzcQB+AHJ0AANBbnlxAH4AeHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABnNpbXBsZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUlQz3ux1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7L1VzZXJzL292ZW50dXJhL2dpdC9zcGFya19mZWR0b29sL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTKsAc3fPZgMo7HZImNanE1EkFZJg==
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCgMdbSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBnA2Vh0AAZub3RpZnlzcQB+AAziSN0adAAEd2FpdHNxAH4ADPTLL6h0AA0kYXNJbnN0YW5jZU9mc3EAfgAMrJIPlHQABmVxdWFsc3NxAH4ADICivdd0AAxhc0luc3RhbmNlT2ZzcQB+AAxOH9sadAAMc3luY2hyb25pemVkc3EAfgAMmjzScnQADSRpc0luc3RhbmNlT2ZzcQB+AAzQpcaxdAAMc3FsX3Bvc3RncmVzc3EAfgAMROhSonQACW5vdGlmeUFsbHNxAH4ADAkmLjx0AAxpc0luc3RhbmNlT2ZzcQB+AAzhGQEGdAAGPGluaXQ+c3EAfgAMfQS/uXQAAj09c3EAfgAMEsugvXQABWNsb25lc3EAfgAM/5+Gg3QACHRvU3RyaW5nc3EAfgAMMCZbVXQAAiE9c3EAfgAMZxcuGHQACGdldENsYXNzc3EAfgAMGmN4aHQAAnQxc3EAfgAMiX3Tr3QAAm5lc3EAfgAMbdqcV3QAAmVxc3EAfgAMucqxuHQAAiMjc3EAfgAM6OMbG3QACGZpbmFsaXplc3EAfgAMKgMOInQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE3NpbXBsZS5zcWxfcG9zdGdyZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFsAcHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGRzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AY3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AY3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgXNxAH4AdHQAA0FueXNxAH4AeHNxAH4Ae3VxAH4AfgAAAAJzcQB+AIB0AAVzY2FsYXEAfgCHdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc2ltcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFSVDPe7HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvVXNlcnMvb3ZlbnR1cmEvZ2l0L3NwYXJrX2ZlZHRvb2wvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIVjfTBmp8Bhi2SRak5Z9Ivj9SMD
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDxoohTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMVhqDh0AAZub3RpZnlzcQB+AAz6uclcdAAEd2FpdHNxAH4ADFLURcl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMKApNFXQABmVxdWFsc3NxAH4ADNQBkqZ0AAxhc0luc3RhbmNlT2ZzcQB+AAzxJEV7dAAMc3luY2hyb25pemVkc3EAfgAMEAaho3QADSRpc0luc3RhbmNlT2ZzcQB+AAzjpZEFdAAJbm90aWZ5QWxsc3EAfgAMLE1F9XQADGlzSW5zdGFuY2VPZnNxAH4ADKwJF5N0AAY8aW5pdD5zcQB+AAxWEJnkdAACPT1zcQB+AAyG+n/cdAAFY2xvbmVzcQB+AAzxhVXVdAAMc3FsX3RlcmFkYXRhc3EAfgAMB4xju3QACHRvU3RyaW5nc3EAfgAMjvlH5XQAAiE9c3EAfgAMggA9SHQACGdldENsYXNzc3EAfgAMPbw0jnQAAnQxc3EAfgAMxSbnKHQAAm5lc3EAfgAMTMXuHnQAAmVxc3EAfgAMQpNYMXQAAiMjc3EAfgAMSGpGnnQACGZpbmFsaXplc3EAfgAME+ZSC3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAE3NpbXBsZS5zcWxfdGVyYWRhdGF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFsAcHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGRzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AY3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AY3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgXNxAH4AdHQAA0FueXNxAH4AeHNxAH4Ae3VxAH4AfgAAAAJzcQB+AIB0AAVzY2FsYXEAfgCHdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc2ltcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFSVDPe7HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvVXNlcnMvb3ZlbnR1cmEvZ2l0L3NwYXJrX2ZlZHRvb2wvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFoNx3R9b1r1wtkuUGBB5RQLUCHz
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAdys5NAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAxarMV0AAZub3RpZnlzcQB+AAwOV/q0dAAJREIyX1RBQkxFc3EAfgAMrlP7a3QACURCMV9EQVRBQnNxAH4ADCPBxid0AAR3YWl0c3EAfgAMBPSm4HQADSRhc0luc3RhbmNlT2ZzcQB+AAwH+QEBdAAGZXF1YWxzc3EAfgAM+BVpw3QABVVTRVIxc3EAfgAMjX8MmnQACURCMl9EQVRBQnNxAH4ADPszPnl0AAxhc0luc3RhbmNlT2ZzcQB+AAytWujydAAMQ29uZmlnSGVscGVyc3EAfgAM2uF3MXQADHN5bmNocm9uaXplZHNxAH4ADJVJUI90AA0kaXNJbnN0YW5jZU9mc3EAfgAM35FkAnQABVFVRVJZc3EAfgAMpInJsXQACW5vdGlmeUFsbHNxAH4ADEr8JFV0AAxpc0luc3RhbmNlT2ZzcQB+AAz9gLaTdAAJUEFTU1dPUkQyc3EAfgAMQSd+8nQAAj09c3EAfgAMcRWDinQABWNsb25lc3EAfgAMRA2XCHQACHRvU3RyaW5nc3EAfgAMIUfeWXQAAiE9c3EAfgAMll7LmnQACGdldENsYXNzc3EAfgAMjcM0xXQACERCMV9QT1JUc3EAfgAMPm0e+3QACERCMl9QT1JUc3EAfgAM3mE3M3QAAm5lc3EAfgAM1b3qP3QABVVTRVIyc3EAfgAMworl63QACERCMV9IT1NUc3EAfgAM5sv0c3QAAmVxc3EAfgAMmRqxoHQACURCMV9UQUJMRXNxAH4ADEyF0x90AAIjI3NxAH4ADFpTl+x0AAhEQjJfSE9TVHNxAH4ADPlzm2Z0AAhmaW5hbGl6ZXNxAH4ADOvGr1Z0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABhzaW1wbGUudXRpbC5Db25maWdIZWxwZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBweHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBvAHBzcQB+AHRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AV0wACWluaGVyaXRlZHEAfgBXTAAHcGFyZW50c3EAfgBXeHEAfgB4c3EAfgBvAHBzcQB+AHR1cQB+AFIAAAAAc3EAfgBvAHBzcQB+AHR1cQB+AFIAAAAAc3EAfgBvAHBzcQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHd0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AJR0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJVzcQB+AIh0AANBbnlzcQB+AIxzcQB+AI91cQB+AJIAAAACc3EAfgCUdAAFc2NhbGFxAH4Am3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC3NpbXBsZS51dGlsc3EAfgCldAAGc2ltcGxlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFSVDPe7HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvVXNlcnMvb3ZlbnR1cmEvZ2l0L3NwYXJrX2ZlZHRvb2wvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFD2cPrFBKgSouCTD3Sz5+nofc8J/
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBHvvpOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBfyTkF0AAZub3RpZnlzcQB+AAxx1hNpdAAEd2FpdHNxAH4ADDDeZrB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMmJFu23QAA3VybHNxAH4ADBsGTFt0AAZlcXVhbHNzcQB+AAwjsDEsdAAFcG9ydDJzcQB+AAyNDYeldAAMYXNJbnN0YW5jZU9mc3EAfgAMPem4FXQABGhvc3RzcQB+AAwiJktvdAAMc3luY2hyb25pemVkc3EAfgAMcwsv4HQADSRpc0luc3RhbmNlT2ZzcQB+AAxtPmbXdAAFaG9zdDJzcQB+AAxDYSswdAAFcXVlcnlzcQB+AAwIs6NYdAAGdGFibGUxc3EAfgAMZ1TiEXQACW5vdGlmeUFsbHNxAH4ADPa+odV0AAxpc0luc3RhbmNlT2ZzcQB+AAyZK2TzdAAGdGFibGUyc3EAfgAMqRGBCHQABjxpbml0PnNxAH4ADMZ57iN0AARwb3J0c3EAfgAM8ZChyHQABXVzZXIyc3EAfgAMQuSq4XQAAj09c3EAfgAMLjfoN3QABHVybDJzcQB+AAyLOInMdAAFY2xvbmVzcQB+AAx689TydAAJbG9hZF9jb25mc3EAfgAMvc+yaHQACHRvU3RyaW5nc3EAfgAMrwCTdXQAAiE9c3EAfgAM8EDI/XQACGdldENsYXNzc3EAfgAMbh60pHQAAm5lc3EAfgAMWCWeNXQACXBhc3N3b3JkMnNxAH4ADKLBPJp0AAR1c2Vyc3EAfgAM/LynTXQAAmVxc3EAfgAMcdlXt3QAAiMjc3EAfgAMUBqJKHQACGZpbmFsaXplc3EAfgAMk1ki+HQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AWXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFXNpbXBsZS51dGlsLmxvYWRfY29uZnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Acnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcQBwc3EAfgB2c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFlMAAlpbmhlcml0ZWRxAH4AWUwAB3BhcmVudHNxAH4AWXhxAH4AenNxAH4AcQBwc3EAfgB2dXEAfgBUAAAAAHNxAH4AcQBwc3EAfgB2dXEAfgBUAAAAAHNxAH4AcQBwc3EAfgB2dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB5dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB5c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCWdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCXc3EAfgCKdAADQW55c3EAfgCOc3EAfgCRdXEAfgCUAAAAAnNxAH4AlnQABXNjYWxhcQB+AJ11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtzaW1wbGUudXRpbHNxAH4Ap3QABnNpbXBsZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUlQz3ux1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7L1VzZXJzL292ZW50dXJhL2dpdC9zcGFya19mZWR0b29sL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRHG90lu8D8VP+AjnN3PVzNm6vplw==
 external apis:
 0 items
 source infos:
 5 items
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/simple.scala -> 
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/simple.scala -> 
 AAAAAAAAAAA=
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_postgres.scala -> 
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_postgres.scala -> 
 AAAAAAAAAAA=
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/sql_teradata.scala -> 
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/sql_teradata.scala -> 
 AAAAAAAAAAA=
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/ConfigHelper.scala -> 
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/ConfigHelper.scala -> 
 AAAAAAAAAAA=
-/Users/oventura/spark_projects/simple2/src/main/scala/simple/util/load_conf.scala -> 
+/Users/oventura/git/spark_fedtool/src/main/scala/simple/util/load_conf.scala -> 
 AAAAAAAAAAA=
 compilations:
-19 items
+20 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUkWZ7fF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9vdmVudHVyYS9zcGFya19wcm9qZWN0cy9zaW1wbGUyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUkWyb2x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9vdmVudHVyYS9zcGFya19wcm9qZWN0cy9zaW1wbGUyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUkXGelZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9vdmVudHVyYS9zcGFya19wcm9qZWN0cy9zaW1wbGUyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
@@ -299,3 +304,4 @@ compilations:
 16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUkZvEK51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9vdmVudHVyYS9zcGFya19wcm9qZWN0cy9zaW1wbGUyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUkZ0p5t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9vdmVudHVyYS9zcGFya19wcm9qZWN0cy9zaW1wbGUyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUkZ3Yzx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9Vc2Vycy9vdmVudHVyYS9zcGFya19wcm9qZWN0cy9zaW1wbGUyL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUlQz3ux1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9vdmVudHVyYS9naXQvc3BhcmtfZmVkdG9vbC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
