@@ -8,8 +8,12 @@
 [0m[[0mdebug[0m] [0m	  /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/load_conf.class[0m
 [0m[[0mdebug[0m] [0m	simple/simple.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/simple.class[0m
+[0m[[0mdebug[0m] [0m	simple/sql_postgres.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/sql_postgres.class[0m
 [0m[[0mdebug[0m] [0m	simple[0m
 [0m[[0mdebug[0m] [0m	  /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple[0m
+[0m[[0mdebug[0m] [0m	simple/sql_teradata.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/sql_teradata.class[0m
 [0m[[0mdebug[0m] [0m	simple/util/ConfigHelper.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/oventura/spark_projects/simple2/target/scala-2.10/classes/simple/util/ConfigHelper.class[0m
 [0m[[0mdebug[0m] [0m	simple/util[0m
