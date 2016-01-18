@@ -1,3 +1,4 @@
+
 # README file
 
 ## Compile process using sbt
@@ -36,3 +37,6 @@ spark.db2.table          tables
 // t1 is first table and t2 second one change the projection and join parts
 spark.query              select {B.*} from t1  A {inner} join t2  B on {1=1}
 ~~~
+
+## Additional Documentation
+* [Conf file](configuration.conf)
