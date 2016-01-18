@@ -16,6 +16,7 @@ dbtable can be substituted by a query like (select product, count(1) as total fr
 
 ## Conf Values
 
+~~~
 //Conf 1 usually Greenplum will be used as write conf too
 
 spark.db1.user           gpadmin
@@ -34,4 +35,4 @@ spark.db2.table          tables
 
 // t1 is first table and t2 second one change the projection and join parts
 spark.query              select {B.*} from t1  A {inner} join t2  B on {1=1}
-
+~~~
