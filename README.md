@@ -1,5 +1,5 @@
-
-# README file
+# Federation tool based on Spark Dataframes
+This is a simple tool to federate on Spark any kind of info from 2 differents databases, conecting to them with JDBC and building dataframes
 
 ## Compile process using sbt
 ~~~
@@ -25,6 +25,7 @@ spark.db1.host           192.168.177.145
 spark.db1.port           5432
 spark.db1.db             public
 spark.db1.table          test_piani
+spark.db1.driver          org.postgresql.Driver
 
 // Conf 2 prepared for Teradata will be extended
 spark.db2.user           dbc
@@ -33,6 +34,10 @@ spark.db2.port           1025
 spark.db2.password       dbc
 spark.db2.db             dbc
 spark.db2.table          tables
+spark.db2.driver         com.teradata.jdbc.TeraDriver
+
+spark.db3.table         test2
+spark.db3.table_mode    Overwrite
 
 // t1 is first table and t2 second one change the projection and join parts
 spark.query              select {B.*} from t1  A {inner} join t2  B on {1=1}
@@ -40,3 +45,5 @@ spark.query              select {B.*} from t1  A {inner} join t2  B on {1=1}
 
 ## Additional Documentation
 * [Conf file](configuration.conf)
+
+

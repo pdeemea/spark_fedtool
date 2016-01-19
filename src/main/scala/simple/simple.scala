@@ -3,57 +3,64 @@
 package simple
 
 import org.apache.spark.{SparkConf, SparkContext}
-import util.load_conf
+import util.{db_maps, load_conf,sql_executor}
 
 
-/* SimpleApp.scala */
 
 object simple {
   def main(args: Array[String]) {
 
 
 
+    //prop object to store variables for the JDBC connection, only will be used if the exec_query class is used
     val prop = new java.util.Properties
+
     val conf = new SparkConf().setAppName("Federation Tool")
     val sc = new SparkContext(conf)
-
-    val configuration= new load_conf(sc)
-
     val sqlContext = new org.apache.spark.sql.SQLContext(sc)
 
+    //Load of the configuration Files
 
-    /*val t1 = new sql_postgres(sqlContext,configuration)
-    val t2 = new sql_teradata(sqlContext,configuration)*/
+    val configuration = new load_conf(sc)
 
 
-    val t1 = sqlContext.read.format("jdbc").options(
-      Map(
-        "url" -> configuration.url,
-        "dbtable" -> "test_piani",
-        "driver" -> "org.postgresql.Driver",
-        "user" -> configuration.user)).load()
+    // Tow mappers one per database
+    val dbmap1= new db_maps
+    val dbmap2= new db_maps
 
-    val t2 = sqlContext.read.format("jdbc").options(
-      Map(
-        "url" -> configuration.url2,
-        "driver" -> "com.teradata.jdbc.TeraDriver",
-        "dbtable" -> configuration.table2,
-        "user" -> configuration.user2)).load()
+  // Load of the dataframes using Jdbc datasource and choosing the database with the configuration file
+    val t1 = sqlContext.read.format("jdbc").options(dbmap1.sql_postgress_map(configuration)).load()
+    val t2 = sqlContext.read.format("jdbc").options(dbmap2.sql_teradata_map(configuration)).load()
+
+  // Register both Dataframe as Tables, right now we can run any sql on them
     t1.registerTempTable("t1")
     t2.registerTempTable("t2")
 
-   // val query_text = configuration.query.toString()
-    //print(query_text.getClass)
+  //Run of the query of the conf file
+
     val result_query = sqlContext.sql(configuration.query)
 
-    val struct1= t1.rdd
-    //struct1.saveAsTextFile("/Users/oventura/kk.txt")
-    val struct2= t2.rdd
-   // struct2.saveAsTextFile("/Users/oventura/kk2.txt")
-    val struct3= result_query.rdd
-    struct3.saveAsTextFile("/Users/oventura/kk3.txt")
- prop.setProperty("user",configuration.user)
- org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils.saveTable(t1,configuration.url, "test1", prop)
+    /*Conversion to RDD if needed */
+    /*val struct1 = t1.rdd*/
+
+    val exec_sql = new sql_executor(configuration)
+
+   /* If some query is needed can be declared here
+
+    val exec_sql = new sql_executor(configuration)
+    exec_sql.set_texto(" Any SQL")
+    exec_sql.execute()
+
+    */
+
+    try {
+      result_query.write.mode(org.apache.spark.sql.SaveMode.valueOf(configuration.table3_mode)).jdbc(configuration.url, configuration.table3, prop)
+    }
+    catch {
+      case e: Throwable  => e.printStackTrace + e.getMessage
+        println("error")
+    }
+
   }
 }
 
